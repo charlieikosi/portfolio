@@ -1,0 +1,250 @@
+head:
+  title: "Charlie Ikosi's Portfolio"
+
+# showcase
+showcase:
+  enable: true
+  title: "Hello, I’m Charlie Ikosi"
+  subtitle: "GIS Specialist"
+  description: "Passionate about everything spatial!"
+  image:
+    x: "img/showcase/showcase@2x.png"
+    _2x: "img/showcase/showcase@2x.png"
+  imageMobile:
+    x: "img/showcase/showcase@2x.png"
+    _2x: "img/showcase/showcase@2x.png"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact Charlie"
+    URL: "mailto:charlieikosi@gmail.com"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/charlie-ikosi-8184015a/"
+
+    - icon: "github"
+      URL: "https://github.com/charlieikosi"
+
+# about
+about:
+  enable: true
+  title: "Who am I?"
+  content: 
+    <p class="lead">
+    
+    I am dedicated to investigating and addressing a wide range of 
+    challenges in both the <strong>social, engineering and environmental domains.</strong> In the 
+    social engineering realm, I am deeply interested in tackling issues such as 
+    traffic congestion, smart cities, healthy food siting intervention, pothole 
+    identification and mapping using ML/AI, crime hotspot analysis, urban heat 
+    islands, and infectious disease analysis. Through these endeavors, I aim to 
+    <strong>develop innovative solutions</strong> for efficient transportation, sustainable urban
+    living, improved community well-being, enhanced infrastructure maintenance, 
+    public safety, sustainable urban environments, and effective disease control 
+    and prevention. 
+    </p>
+    <p class="lead">
+    Simultaneously, within the environmental domain, <strong>I focus on 
+    understanding and mitigating various environmental challenges.</strong> These include
+    coastal erosion, forest biomass dynamics, benthic coral quantification and 
+    bleaching, landslide susceptibility, and flood modeling. By studying these 
+    areas, I strive to <strong>develop sustainable approaches</strong> that contribute to the 
+    preservation and sustainable management of natural resources, such as 
+    mitigating the impact of coastal erosion, optimizing forest management, 
+    conserving coral reefs, improving landslide susceptibility assessments, and 
+    developing accurate flood models for disaster preparedness and community 
+    protection. <strong>Overall, my work spans both social, engineering and environmental
+    spheres, aiming to make a positive impact on communities and the environment
+    alike.</strong>
+    </p>
+
+  button:
+    icon: "icon-smile-fill"
+    btnText: "About Me"
+    URL: "https://www.linkedin.com/in/charlie-ikosi-8184015a/"
+  image:
+    x: "img/who-am-i/charlie.jpg"
+    _2x: "img/who-am-i/charlie.jpg"
+
+# experience
+experience:
+  enable: true
+  title: "Experience"
+  description: "Over 5 years of GIS experience spanning the fields of Geology, Aviation and Research."
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/in/charlie-ikosi-8184015a/"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "Download My Resume"
+    URL: "#"
+
+  items:
+    - title: "Founder"
+      company: "Pinpoint Consultancy"
+      duration: "Aug 2022 - Present"
+
+    - title: "Strategy and Analytics (Geospatial)"
+      company: "Think City"
+      duration: "Mar 2022 - Jun 2022"
+
+    - title: "Geospatial Researcher"
+      company: "Geospatial Research Institute"
+      duration: "Jul 2021 - Nov 20214"
+      
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - university: "University of Canterbury"
+      year: "2021-2022"
+      degree: "Professional Masters in Geospatial Science and Technology"
+
+    - university: "University of Canterbury"
+      year: "2020-2020"
+      degree: "Graduate Diploma of Science - Geography"
+      
+    - university: "University of Papua New Guinea"
+      year: "2010-2013"
+      degree: "Bachelor of Science"
+
+
+
+# Client & Work
+client_and_work:
+  title: "Portfolio"
+  enable: true
+  
+  enable_clients: false
+  clients:
+    - logo:
+        x: "img/clients/asgardia.png"
+        _2x: "img/clients/asgardia@2x.png"
+      alt: "Asgardia"
+
+    - logo:
+        x: "img/clients/earth-2.png"
+        _2x: "img/clients/earth-2@2x.png"
+      alt: "Earth 2.0"
+
+    - logo:
+        x: "img/clients/goldline.png"
+        _2x: "img/clients/goldline@2x.png"
+      alt: "Goldline"
+
+    - logo:
+        x: "img/clients/kanba.png"
+        _2x: "img/clients/kanba@2x.png"
+      alt: "Kanba"
+
+    - logo:
+        x: "img/clients/zoo-tv.png"
+        _2x: "img/clients/zoo-tv@2x.png"
+      alt: "Zoo"
+
+    - logo:
+        x: "img/clients/ztos.png"
+        _2x: "img/clients/ztos@2x.png"
+      alt: "Ztos"
+
+  works:
+    - title: "Airport Inspector"
+      description: "A Web GIS Application for decision support in airstrip allocation and serviceability impact on rural areas in Papua New Guinea."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Launch Application"
+        URL: "https://niuginitravelor.shinyapps.io/Airport-Inspector/"
+      image:
+        x: "img/works/inspector.jpg"
+        _2x: "img/works/inspector.jpg"
+      is_even: true
+
+    - title: "Automation of 3D buildings from LiDAR"
+      description: "Automating the extraction and visualisation of airborne LiDAR point clouds into 3D parametric surfaces. This was exploratory in nature and a small subset of the point clouds over the university area was used. Coding was performed usin the R computing language."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "See Code Repository"
+        URL: "https://github.com/charlieikosi/LiDAR_3d_vis_with_r"
+      image:
+        x: "img/works/lidar.jpg"
+        _2x: "img/works/lidar.jpg"
+      is_even: false
+      
+    - title: "Movement Economy using Space Syntax Methodology"
+      description: "Space syntax is a set of theories and statistical methods that are used to model and analyse movement within cities. This small project applies that theory to model and analyse the street network of Port Moresby in Papua New Guinea* within a 10km radius from the CBD."
+      image:
+        x: "img/works/pom.jpg"
+        _2x: "img/works/pom.jpg"
+      is_even: true
+      
+    - title: "Quantification and Geomorphic zonation of coral reefs"
+      description: "Exploring the the use of sentinel-2 satellite imagery for coral reef mapping of the coast of Port Moresby, Papua New Guinea"
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Access article"
+        URL: "https://www.researchgate.net/publication/365994479_Quantification_and_Geomorphic_Zonation_of_Coral_Reefs_at_Fisherman_Island"
+      image:
+        x: "img/works/reef.jpg"
+        _2x: "img/works/reef.jpg"
+      is_even: false
+      
+    - title: "Predicting Carbon Stocking Using LiDAR Point Clouds & Field Plot Measurements"
+      description: "This study endeavours to identify the spatial variations in above ground biomass within forest plantations using airborne LiDAR derived point clouds and to compare that with the NZ ETS look-up tables."
+      image:
+        x: "img/works/bottle_lake.jpg"
+        _2x: "img/works/bottle_lake.jpg"
+      is_even: true
+      
+    - title: "Airstrip Survey Program"
+      description: "This project endeavours to eliminate paper entry of survey data by creating a graphical user interface (GUI) where field data is captured instantly and stored as a csv or excel file which can than be used in other data manipulations for GIS vector file creation."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "See Code Repository"
+        URL: "https://github.com/charlieikosi/Airstrip-Survey-Program"
+      image:
+        x: "img/works/gui.jpg"
+        _2x: "img/works/gui.jpg"
+      is_even: false
+      
+    - title: "Determining Optimum Rooftop Solar Potential"
+      description: "This project aim was to use SfM to determine optimum solar power output for the Pavilion building situated on Ilam fields at the University of Canterbury in Christchurch New Zealand."
+      image:
+        x: "img/works/solar_potential.jpg"
+        _2x: "img/works/solar_potential.jpg"
+      is_even: true
+
+# contact
+contact:
+  enable: true
+  title: "Contact Charlie"
+    
+  image:
+    x: "img/who-am-i/cikosi2.jpg"
+    _2x: "img/who-am-i/cikosi2.jpg"
+    
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
+    btnAction: 'mailto:charlieikosi@gmail.com'
+    
+  phone:
+    title: "Phone Number"
+    number: "(+675) 7888 9512 / (+675) 8219 4210"
+  email:
+    title: "Email"
+    email: '<a href="mailto:charlieikosi@gmail.com">charlieikosi@gmail.com</a>'
+  address:
+    title: "Address"
+    address: "Allotment 146, Section 148, Dikagari Rd, Port Moresby, Papua New Guinea"
+  
+
+# newsletter
+newsletter:
+  enable: false
+  title: "Newsletter subscription"
+  success_message: "Successfully subscribed"
+  error_message: "Error while subscribing."
+  note: "We'll never share your email with anyone else."
