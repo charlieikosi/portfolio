@@ -79,7 +79,7 @@ experience:
   button2:
     icon: "icon-profile-fill"
     btnText: "Download My Resume"
-    URL: "#"
+    URL: "https://raw.githubusercontent.com/charlieikosi/portfolio/main/data/CV.pdf"
 
   items:
     - title: "Founder"
