@@ -8,11 +8,11 @@ showcase:
   subtitle: "GIS Specialist"
   description: "Passionate about everything spatial!"
   image:
-    x: "img/showcase/showcase@2x.png"
-    _2x: "img/showcase/showcase@2x.png"
+    x: "img/showcase/charlie.jpg"
+    _2x: "img/showcase/charlie.jpg"
   imageMobile:
-    x: "img/showcase/showcase@2x.png"
-    _2x: "img/showcase/showcase@2x.png"
+    x: "img/showcase/charlie.jpg"
+    _2x: "img/showcase/charlie.jpg"
 
   button:
     icon: "icon-mail-fill"
