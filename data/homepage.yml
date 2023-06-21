@@ -204,6 +204,10 @@ client_and_work:
       
     - title: "Predicting Carbon Stocking Using LiDAR Point Clouds & Field Plot Measurements"
       description: "This study endeavours to identify the spatial variations in above ground biomass within forest plantations using airborne LiDAR derived point clouds and to compare that with the NZ ETS look-up tables."
+      button: 
+        icon: "icon-arrow-right"
+        btnText: "Access article"
+        URL: "https://www.researchgate.net/publication/371725990_Variations_In_Above_Ground_Biomass_of_Forest_Plantations_Using_LiDAR_Point_Clouds_for_Bottle_Lake_Forest"
       image:
         x: "img/works/bottle_lake.jpg"
         _2x: "img/works/bottle_lake.jpg"
