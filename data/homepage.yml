@@ -161,6 +161,17 @@ client_and_work:
         x: "img/works/inspector.jpg"
         _2x: "img/works/inspector.jpg"
       is_even: true
+      
+    - title: "Substack Newsletter"
+      description: "Through my substack, I aim to foster a vibrant community of geospatial enthusiasts, encouraging dialogue, collaboration, and the exchange of ideas."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Visit Newsletter"
+        URL: "https://charliearuaikosi.substack.com/about"
+      image:
+        x: "img/works/substack.jpg"
+        _2x: "img/works/substack.jpg"
+      is_even: false
 
     - title: "Automation of 3D buildings from LiDAR"
       description: "Automating the extraction and visualisation of airborne LiDAR point clouds into 3D parametric surfaces. This was exploratory in nature and a small subset of the point clouds over the university area was used. Coding was performed usin the R computing language."
@@ -171,14 +182,14 @@ client_and_work:
       image:
         x: "img/works/lidar.jpg"
         _2x: "img/works/lidar.jpg"
-      is_even: false
+      is_even: true
       
     - title: "Movement Economy using Space Syntax Methodology"
       description: "Space syntax is a set of theories and statistical methods that are used to model and analyse movement within cities. This small project applies that theory to model and analyse the street network of Port Moresby in Papua New Guinea* within a 10km radius from the CBD."
       image:
         x: "img/works/pom.jpg"
         _2x: "img/works/pom.jpg"
-      is_even: true
+      is_even: false
       
     - title: "Quantification and Geomorphic zonation of coral reefs"
       description: "Exploring the the use of sentinel-2 satellite imagery for coral reef mapping of the coast of Port Moresby, Papua New Guinea"
@@ -189,14 +200,14 @@ client_and_work:
       image:
         x: "img/works/reef.jpg"
         _2x: "img/works/reef.jpg"
-      is_even: false
+      is_even: true
       
     - title: "Predicting Carbon Stocking Using LiDAR Point Clouds & Field Plot Measurements"
       description: "This study endeavours to identify the spatial variations in above ground biomass within forest plantations using airborne LiDAR derived point clouds and to compare that with the NZ ETS look-up tables."
       image:
         x: "img/works/bottle_lake.jpg"
         _2x: "img/works/bottle_lake.jpg"
-      is_even: true
+      is_even: false
       
     - title: "Airstrip Survey Program"
       description: "This project endeavours to eliminate paper entry of survey data by creating a graphical user interface (GUI) where field data is captured instantly and stored as a csv or excel file which can than be used in other data manipulations for GIS vector file creation."
@@ -207,14 +218,14 @@ client_and_work:
       image:
         x: "img/works/gui.jpg"
         _2x: "img/works/gui.jpg"
-      is_even: false
+      is_even: true
       
     - title: "Determining Optimum Rooftop Solar Potential"
       description: "This project aim was to use SfM to determine optimum solar power output for the Pavilion building situated on Ilam fields at the University of Canterbury in Christchurch New Zealand."
       image:
         x: "img/works/solar_potential.jpg"
         _2x: "img/works/solar_potential.jpg"
-      is_even: true
+      is_even: false
 
 # contact
 contact:
