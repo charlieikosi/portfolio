@@ -4,7 +4,7 @@ head:
 # showcase
 showcase:
   enable: true
-  title: "Hello, I’m Charlie Ikosi"
+  title: "Hi, I’m Charlie Ikosi"
   subtitle: "GIS Specialist"
   description: "Passionate about everything spatial!"
   image:
