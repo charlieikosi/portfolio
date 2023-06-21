@@ -230,6 +230,28 @@ client_and_work:
         x: "img/works/solar_potential.jpg"
         _2x: "img/works/solar_potential.jpg"
       is_even: false
+      
+    - title: "Interactive Population Growth Rate Charts"
+      description: "This small project explores 60 years of population growth rate in the pacific through animated charts."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "See Code Repository"
+        URL: "https://github.com/charlieikosi/animated-charts/blob/main/pop-growth-rates/pacific/vizzu.ipynb"
+      image:
+        x: "img/works/g_rate.jpg"
+        _2x: "img/works/g_rate.jpg"
+      is_even: true
+      
+    - title: "Sentiment Analysis of headline stories"
+      description: "This small project explores 6 months of headline stories and predictes the sentiment and to obtain the word cloud of most used words."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "See Code Repository"
+        URL: "https://github.com/charlieikosi/sentiment-analysis/tree/main/Top%20Stories"
+      image:
+        x: "img/works/word_cloud.png"
+        _2x: "img/works/word_cloud.png"
+      is_even: false
 
 # contact
 contact:
