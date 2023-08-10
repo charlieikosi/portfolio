@@ -239,6 +239,13 @@ client_and_work:
         _2x: "img/works/solar_potential.jpg"
       is_even: false
       
+    - title: "Quantifying Urban Greenness"
+      description: "This project aim was to use SfM to determine optimum solar power output for the Pavilion building situated on Ilam fields at the University of Canterbury in Christchurch New Zealand."
+      image:
+        x: "img/works/pom_green_index.png"
+        _2x: "img/works/pom_green_index.png"
+      is_even: true 
+      
     - title: "Interactive Population Growth Rate Charts"
       description: "This small project explores 60 years of population growth rate in the pacific through animated charts."
       button:
@@ -248,7 +255,7 @@ client_and_work:
       image:
         x: "img/works/g_rate.jpg"
         _2x: "img/works/g_rate.jpg"
-      is_even: true
+      is_even: false
       
     - title: "Sentiment Analysis of headline stories"
       description: "This small project explores 6 months of headline stories and predictes the sentiment and to obtain the word cloud of most used words."
@@ -259,7 +266,7 @@ client_and_work:
       image:
         x: "img/works/word_cloud.png"
         _2x: "img/works/word_cloud.png"
-      is_even: false
+      is_even: true
 
 # contact
 contact:
